@@ -1,0 +1,20 @@
+cabal-version:      3.0
+name:               Beats
+version:            0.1.0.0
+
+synopsis: Track your beats from your average BPM.
+description: GUI application for tracking your rhythm.
+
+license: GPL-3.0-or-later
+author: Danni, Sammi
+maintainer: samuel <samuel@knutsen.co>
+
+extra-source-files: README.md
+
+executable Beats
+    main-is:          Main.hs
+    build-depends:    base ^>=4.15.1.0
+                    , gloss ^>= 1.13.2.1
+    hs-source-dirs:   app
+    ghc-options:      -O2
+    default-language: Haskell2010

@@ -1,0 +1,4 @@
+packages: Beats.cabal
+
+package gloss
+  flags: +GLFW -GLUT
